@@ -1,0 +1,43 @@
+{
+  "name": "zero-distance",
+  "version": "1.0.0",
+  "description": "快速在react中实现两个路由中的相同组件的动画效果",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest -u",
+    "build": "tsc -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaserzz/zero-distance.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "files": [
+    "lib",
+    "lib/**/*"
+  ],
+  "author": "ZardLiu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chaserzz/zero-distance/issues"
+  },
+  "homepage": "https://github.com/chaserzz/zero-distance#readme",
+  "dependencies": {
+    "react": "^18.1.0"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
