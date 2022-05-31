@@ -2,7 +2,7 @@ import React, { memo, useContext, useEffect, useLayoutEffect, useRef, useState, 
 import { ActorProps } from 'src/typings';
 import StageContext from 'src/util/context';
 import { calculateInvert } from '../util/index';
-const Actor = memo(({children,name,duration,onCompleted,easing}: ActorProps) => {
+const Actor = memo(({children,name,duration,easing}: ActorProps) => {
   const {
     mapNameToRect,
     setMapNameToRect
