@@ -1,8 +1,8 @@
 {
   "name": "zero-distance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "快速在react中实现两个路由中的相同组件的动画效果",
-  "main": "index.js",
+  "main": "lib/index.js",
   "directories": {
     "example": "example",
     "test": "test"
