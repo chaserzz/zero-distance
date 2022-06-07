@@ -1,15 +1,17 @@
 {
   "name": "zero-distance",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "快速在react中实现两个路由中的相同组件的动画效果",
   "main": "lib/index.js",
   "directories": {
     "example": "example",
     "test": "test"
   },
+  "types": "@types/index.d.ts",
   "scripts": {
     "test": "jest -u",
-    "build": "tsc -d"
+    "build": "rollup --config",
+    "clean": "rimraf ./lib"
   },
   "repository": {
     "type": "git",
@@ -28,13 +30,25 @@
     "url": "https://github.com/chaserzz/zero-distance/issues"
   },
   "homepage": "https://github.com/chaserzz/zero-distance#readme",
-  "dependencies": {
+  "peerDependencies": {
     "react": "^18.1.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@babel/preset-typescript": "^7.17.12",
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
     "@types/react": "^18.0.9",
     "commitizen": "^4.2.4",
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "rollup": "^2.75.5",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.32.1",
+    "tslib": "^2.4.0"
   },
   "config": {
     "commitizen": {

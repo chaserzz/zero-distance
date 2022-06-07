@@ -1,4 +1,4 @@
-import React, { memo, useContext, useEffect, useLayoutEffect, useRef, useState, } from 'react'
+import React, { memo, useContext, useLayoutEffect, useRef, } from 'react'
 import { ActorProps } from 'src/typings';
 import StageContext from 'src/util/context';
 import { calculateInvert } from '../util/index';
