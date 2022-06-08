@@ -59,8 +59,22 @@ import {Actor} from 'zero-distance'
 	</Actor>
 </div>
 ```
-### 组件props以及api
-建设中...
+### Api
+<br />
+
+#### Actor
+<br />
+
+| 参数    | 描述 | 类型          |  默认值   |
+| :---:       |    :----:   |    :---:      |    :---:   |
+| name   | 动画组件的唯一表示  | string   |          |
+| duration   | 完成动画的时间(ms)  | number   |     300     |
+| easing   | 动画随时间变化的速率  | string   |     cubic-bezier(0,0,0.32,1)     |
+
+#### ⚠️ easing 属性需要时css可识别的动画速率.
+<br />
+<br />
 
 ### 测试
+
 建设中...
