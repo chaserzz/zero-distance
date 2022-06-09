@@ -59,6 +59,8 @@ import {Actor} from 'zero-distance'
 	</Actor>
 </div>
 ```
+<br />
+查看<a href="https://github.com/chaserzz/zero-distance/tree/main/example">example</a>来获得具体示例
 ### Api
 <br />
 
@@ -78,3 +80,6 @@ import {Actor} from 'zero-distance'
 ### 测试
 
 建设中...
+
+### 
+<br />
